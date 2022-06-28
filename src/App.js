@@ -1,8 +1,10 @@
-import Welcome from "./components/Welcome";
+import Main from "./pages/Main.jsx";
 
 function App() {
-  return (    
-     <Welcome/> 
+  return (
+    <>
+      <Main />
+    </>
   );
 }
 
