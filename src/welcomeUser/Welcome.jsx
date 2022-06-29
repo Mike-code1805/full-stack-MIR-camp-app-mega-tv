@@ -1,8 +1,8 @@
 /* eslint arrow-body-style: ["error", "always"] */
 /* eslint-env es6 */
 import React from "react";
-import Button from "../../shared/button/index.jsx";
-import Subtitle from "../../shared/subtitle/index.jsx";
+import Button from "../shared/button/index.jsx";
+import Subtitle from "../shared/subtitle/index.jsx";
 import "./styles.scss";
 
 const Welcome = () => {
