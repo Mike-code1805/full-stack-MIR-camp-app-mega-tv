@@ -1,7 +1,7 @@
 import React from "react";
-import Subtitle from "../shared/subtitle/index.jsx";
-import Input from "../shared/input/index.jsx";
-import Button from "../shared/button/index.jsx";
+import Subtitle from "../../shared/subtitle/index.jsx";
+import Input from "../../shared/input/index.jsx";
+import Button from "../../shared/button/index.jsx";
 import "./styles.scss";
 
 function ContactUser() {

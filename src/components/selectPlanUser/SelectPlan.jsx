@@ -1,8 +1,8 @@
 import React from "react";
-import Container from "../shared/container/index.jsx";
-import Button from "../shared/button/index.jsx";
+import Container from "../../shared/container/index.jsx";
+import Button from "../../shared/button/index.jsx";
 import "./styles.scss";
-import Subtitle from "../shared/subtitle/index.jsx";
+import Subtitle from "../../shared/subtitle/index.jsx";
 
 function SelectPlan() {
   return (

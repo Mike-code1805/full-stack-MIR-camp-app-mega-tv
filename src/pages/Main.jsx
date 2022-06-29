@@ -1,9 +1,9 @@
 import React from "react";
-import Welcome from "../welcomeUser/Welcome.jsx";
-import NameUser from "../nameUser/NameUser.jsx";
-import AddressUser from "../adressUser/AddressUser.jsx";
-import SelectPlan from "../selectPlanUser/SelectPlan.jsx";
-import ContactUser from "../contactUser/ContactUser.jsx";
+import Welcome from "../components/welcomeUser/Welcome.jsx";
+import NameUser from "../components/nameUser/NameUser.jsx";
+import AddressUser from "../components/adressUser/AddressUser.jsx";
+import SelectPlan from "../components/selectPlanUser/SelectPlan.jsx";
+import ContactUser from "../components/contactUser/ContactUser.jsx";
 
 function Main() {
   return (
