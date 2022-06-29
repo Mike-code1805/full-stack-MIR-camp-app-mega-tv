@@ -1,0 +1,68 @@
+@use "/src/scss/index" as *;
+
+.input {
+  position: relative;
+  display: flex;
+  margin: 0px 20px 20px 0px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  &__field {
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid $black;
+    padding: 10px;
+    color: $blue;
+    background: transparent;
+    border-radius: 5px;
+    font-family: $font;
+    text-align: left;
+    &:focus,
+    &:not(:placeholder-shown) {
+      & + .input__label {
+        transform: translate(0.25rem, -65%) scale(0.8);
+        color: $black;
+      }
+    }
+    width: 100%;
+    &--width {
+      width: 30%;
+      box-sizing: border-box;
+      display: block;
+      border: 1px solid $black;
+      padding: 10px;
+      color: $blue;
+      background: transparent;
+      border-radius: 5px;
+      font-family: $font;
+      text-align: left;
+      &:focus,
+      &:not(:placeholder-shown) {
+        & + .input__label {
+          transform: translate(0.25rem, -65%) scale(0.8);
+          color: $black;
+        }
+      }
+    }
+  }
+  &__label {
+    align-items: left;
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    white-space: nowrap;
+    transform: translate(0, 0);
+    padding: 2px;
+    transform-origin: 0 0;
+    background: $white;
+    transition: transform 150ms ease-in;
+    font-weight: bold;
+    font-family: $font;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: $gray;
+    &:hover {
+      color: $black;
+    }
+  }
+}

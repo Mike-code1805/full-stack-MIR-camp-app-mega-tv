@@ -1,0 +1,41 @@
+@use "/src/scss/index" as *;
+
+.container {
+  border: 1px solid $gray;
+  border-radius: 5%;
+  width: 20%;
+  margin: 3% 3% 3% 3%;  
+  &__h1 {
+    font-size: small;
+    font-family: $font;
+    color: $gray-darken;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  &__img {
+    width: 8%;
+    margin-bottom: 10px;
+  }
+  &__price {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    &__h1 {
+      font-size: 20px;
+      margin-bottom: auto;
+      margin-top: auto;
+      color: $blue;
+    }
+    &__h2 {
+      margin-bottom: auto;
+      margin-top: auto;
+      font-size: 60px;
+      color: $blue;
+    }
+    &__h3 {
+      margin-bottom: auto;
+      margin-top: auto;
+      color: $blue;
+    }
+  }
+}

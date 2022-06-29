@@ -1,0 +1,13 @@
+@use "/src/scss/index" as *;
+
+.selectPlan {
+  border: 1px solid #ccc;
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+  margin: 100px 100px 100px 100px;
+  &__container{
+    display: flex;
+    justify-content: center;
+  }
+}
