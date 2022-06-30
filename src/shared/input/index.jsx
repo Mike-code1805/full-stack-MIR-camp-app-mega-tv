@@ -6,7 +6,7 @@ const Input = (props) => {
   const { text, onClick, value, width = true, type } = props;
   return (
     <>
-      <label class={styles.input}>
+      <label className={styles.input}>
         <input
           onClick={onClick}
           value={value}
@@ -16,7 +16,7 @@ const Input = (props) => {
           type={type}
           placeholder=" "
         />
-        <span class={styles.input__label}>{text}</span>
+        <span className={styles.input__label}>{text}</span>
       </label>
     </>
   );

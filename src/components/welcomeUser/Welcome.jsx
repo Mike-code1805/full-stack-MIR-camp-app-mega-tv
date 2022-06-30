@@ -7,8 +7,8 @@ import "./styles.scss";
 
 const Welcome = () => {
   return (
-    <div class="welcome">
-      <h1 class="welcome welcome__title">The Best TV services around!</h1>
+    <div className="welcome">
+      <h1 className="welcome welcome__title">The Best TV services around!</h1>
       <Subtitle text={"Are you ready to enjoy ultra-best service?"} />
       <Button text={"let's do it"} />
     </div>
