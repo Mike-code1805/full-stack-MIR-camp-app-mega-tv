@@ -4,7 +4,7 @@ import { ApplicationError } from '../../customErrors/ApplicationError';
 import { logger } from '../../logger/appLoger';
 import { getAllUsersService } from '../services/getAllUsersService';
 
-export const getUsers = async (req: Request, res: Response, next: NextFunction) => {
+export const getUsersController = async (req: Request, res: Response, next: NextFunction) => {
     try {
         const users = await getAllUsersService(req.params.id, req.query.new);
         res.status(200).json(users);

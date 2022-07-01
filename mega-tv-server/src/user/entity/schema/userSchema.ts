@@ -5,26 +5,30 @@ const Schema = mongoose.Schema;
 
 export const userSchemma = new Schema<User>({
     username: { 
+        type: String,
+    },
+    lastname:{
         type: String, 
-        required: true, 
-        unique: true 
     },
-    email: {
+    address: {
         type: String,
-        required: true,
-        unique: true,
-        lowercase: true,
+        default: "",
     },
-    isAdmin: {
-        type: Boolean,
-        default: false,
-    },
-    password: {
+    nroApart: {
         type: String,
-        required: true,
+        default: "",
     },
-    img: { 
-        type: String ,
+    plan: {
+        type: String,
+        default: "",
+    },
+    email:{
+        type: String,
+        default: "",
+    },
+    phone:{
+        type: String,
+        default: "",
     },
     created_at: { 
         type: Date,
@@ -34,8 +38,4 @@ export const userSchemma = new Schema<User>({
         type: Date,
         default: Date.now,
     },
-    valid: {
-        type: Boolean,
-        default: false,
-    }
 });

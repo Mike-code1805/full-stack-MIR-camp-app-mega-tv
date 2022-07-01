@@ -4,7 +4,7 @@ import { ApplicationError } from '../../customErrors/ApplicationError';
 import { logger } from '../../logger/appLoger';
 import { deleteUserService } from '../services/deleteUserService';
 
-export const deleteUser = async (req: Request, res: Response,  next: NextFunction) => {
+export const deleteUserController = async (req: Request, res: Response,  next: NextFunction) => {
     try{
         const users = await deleteUserService(req.params.id);
         res.status(200).json({ message : "deleted" });

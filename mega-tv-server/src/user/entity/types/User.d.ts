@@ -4,24 +4,25 @@ export interface User {
     id: UserIdType;
     username: string;
     lastname: string;
+    address: string;
+    nroApart: string;
+    plan: string;
     email: string;
-    isAdmin: boolean;
-    password: string;
-    img: string;
+    phone: string;
     created_at: Date;
     updated_at: Date | null;
-    valid: boolean;
 }
 
 export type EditUser = {
     id: string;
     username?: string;
+    lastname?: string;
+    address?: string;
+    nroApart?: string;
+    plan?: string;
     email?: string;
-    isAdmin?: boolean;
-    password?: string;
-    img?: string;
-    updated_at?: Date | null;
-    valid?: boolean;
+    phone?: string;
+    updated_at: Date | null;
 };
 
 export type UserIdType = {
@@ -29,8 +30,3 @@ export type UserIdType = {
 };
 
 export type CreateUser = Omit<User, 'id' | 'createdAt' | 'editedAt'>;
-
-export type LoginUser = {
-    password: string;
-    email: string;
-};

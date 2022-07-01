@@ -1,14 +1,11 @@
-import { findFiveNewResources } from "../../shared/factory/findFiveNewResources";
 import { logger } from "../../logger/appLoger";
 import { findAllResources } from "../../shared/factory/findAllResources";
-import { userModel } from "../entity/userModel";
+import { userModel } from "../entity/model/userModel";
 import { User } from "../entity/types/User";
 
-export const getAllUsersService = async (id: string, newsUsers: any): Promise<User[]> => {
+export const getAllUsersService = async (newsUsers: any): Promise<User[]> => {
   try {
-    const users: User[] = newsUsers
-        ? await findFiveNewResources(userModel)(id)
-        : await findAllResources(userModel)();
+    const users: User[] = await findAllResources(userModel)();
     return users;
   } catch (error: any) {
     logger.error('error getting the users', {

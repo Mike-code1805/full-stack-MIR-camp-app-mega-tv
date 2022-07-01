@@ -1,7 +1,7 @@
 import { logger } from "../../logger/appLoger";
-import { userModel } from "../entity/userModel";
 import { User } from "../entity/types/User";
 import { findOneResourceById } from "../../shared/factory/findOneResourceById";
+import { userModel } from "../entity/model/userModel";
 
 export const getOneUserByIdService = async (id: string ): Promise< User | null> => {
     try {

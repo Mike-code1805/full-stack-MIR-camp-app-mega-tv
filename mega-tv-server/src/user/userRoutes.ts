@@ -1,12 +1,9 @@
 import { Router } from "express";
+import { createUserController } from "./controllers/createUserController";
 
-import { getStatsUsers } from "./controllers/getStatsUsersController";
-
-import { deleteUser } from "./controllers/deleteUserController";
-import { getUsers } from "./controllers/getAllUsersController";
-import { getUsersById } from "./controllers/getUserByIdController";
-import { updateUser } from "./controllers/updateUserController";
-import { authTokenValidationAndIsAdmin } from "../auth/middlewares/authTokenValidationAndIsAdmin";
+import { deleteUserController } from "./controllers/deleteUserController";
+import { getUsersController } from "./controllers/getAllUsersController";
+import { updateUserController } from "./controllers/updateUserController";
 
 
 
@@ -14,16 +11,12 @@ const userRouter: Router = Router();
 
 userRouter
     .route('/api/users')
-    .get(authTokenValidationAndIsAdmin, getUsers)
-
-userRouter
-    .route('/api/users/stats')
-    .get(authTokenValidationAndIsAdmin, getStatsUsers)
+    .post(createUserController)
+    .get(getUsersController);
        
 userRouter
 .route('/api/users/find/:id')
-    .get(authTokenValidationAndIsAdmin, getUsersById)
-    .delete(authTokenValidationAndIsAdmin, deleteUser)
-    .put(authTokenValidationAndIsAdmin, updateUser)
+    .put(updateUserController)
+    .delete(deleteUserController);
     
 export default userRouter;
