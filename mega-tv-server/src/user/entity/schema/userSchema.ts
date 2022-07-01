@@ -4,7 +4,7 @@ import { User } from "../types/User";
 const Schema = mongoose.Schema;
 
 export const userSchemma = new Schema<User>({
-    username: { 
+    name: { 
         type: String,
     },
     lastname:{

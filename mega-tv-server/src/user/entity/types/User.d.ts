@@ -2,7 +2,7 @@ import { Types } from "mongoose";
 
 export interface User {
     id: UserIdType;
-    username: string;
+    name: string;
     lastname: string;
     address: string;
     nroApart: string;
@@ -15,7 +15,7 @@ export interface User {
 
 export type EditUser = {
     id: string;
-    username?: string;
+    name?: string;
     lastname?: string;
     address?: string;
     nroApart?: string;

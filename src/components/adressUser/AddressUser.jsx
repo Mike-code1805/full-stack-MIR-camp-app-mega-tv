@@ -9,8 +9,11 @@ import Input from "../../shared/input/index.jsx";
 
 import Button from "../../shared/button/index.jsx";
 import "./styles.scss";
+import { useRouter } from "../../hooks/useRouter";
 
 function AddressUser() {
+  const {gotoPlan} = useRouter()
+
   const API =
     "https://raw.githubusercontent.com/khriztianmoreno/tv-services-challenge/main/assets/buildings.json";
 
@@ -24,7 +27,7 @@ function AddressUser() {
           <Input text={"apt#"} width={false} />
         </div>
       </div>
-      <Button text={"Yes!"} />
+      <Button onClick={gotoPlan} text={"Yes!"} />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import { getAllUsersService } from '../services/getAllUsersService';
 
 export const getUsersController = async (req: Request, res: Response, next: NextFunction) => {
     try {
-        const users = await getAllUsersService(req.params.id, req.query.new);
+        const users = await getAllUsersService();
         res.status(200).json(users);
     } catch (error: any) {
         logger.error('error', 'hello', { message: error.message });

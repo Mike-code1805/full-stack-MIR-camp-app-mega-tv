@@ -3,7 +3,7 @@ import { findAllResources } from "../../shared/factory/findAllResources";
 import { userModel } from "../entity/model/userModel";
 import { User } from "../entity/types/User";
 
-export const getAllUsersService = async (newsUsers: any): Promise<User[]> => {
+export const getAllUsersService = async (): Promise<User[]> => {
   try {
     const users: User[] = await findAllResources(userModel)();
     return users;
