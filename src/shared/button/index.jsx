@@ -3,10 +3,12 @@
 import styles from "./styles.module.scss";
 
 const Button = (props) => {
-  const { text, onClick, type } = props;
+  const { text, onClick, type, width = true } = props;
 
   return (
-    <button onClick={onClick} type={type} className={styles.button}>
+    <button onClick={onClick} type={type} className={
+      width ? styles.button : styles["button--width"]
+      }>
       {text}
     </button>
   );
