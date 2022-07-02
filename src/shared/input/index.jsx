@@ -3,13 +3,16 @@
 import styles from "./styles.module.scss";
 
 const Input = (props) => {
-  const { text, onClick, value, width = true, type } = props;
+  const { text, onClick, value, width = true, type, onChange, name, onSubmit } = props;
   return (
     <>
       <label className={styles.input}>
         <input
+          name={name}
           onClick={onClick}
+          onSubmit={onSubmit}
           value={value}
+          onChange={onChange}
           className={
             width ? styles.input__field : styles["input__field--width"]
           }

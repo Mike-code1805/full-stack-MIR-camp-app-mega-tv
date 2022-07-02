@@ -7,13 +7,13 @@ import Button from "../button/index.jsx";
 import "./styles.scss";
 
 function SelectSearch(props) {
-  const { link } = props;
+  const { link, placeholder } = props;
 
   const ref = useRef(null);
   const [active, setActive] = useState(false);
   const [citys, setCitys] = useState([]);
   const [selectedText, setSelectedText] = useState(
-    "STREET, ADDRESS, CITY, STATE"
+    placeholder
   );
   const [searchField, setSearchField] = useState("");
 
@@ -95,7 +95,7 @@ function SelectSearch(props) {
               setActive(false);
             }}
             className="input"
-            placeholder="STREET, ADDRESS, CITY, STATE"
+            placeholder={placeholder}
             onChange={handleChange}
           />
         </div>

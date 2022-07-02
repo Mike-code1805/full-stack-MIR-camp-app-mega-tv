@@ -2,7 +2,7 @@
 /* eslint no-underscore-dangle: 0 */
 /* eslint-env es6 */
 
-import React from "react";
+import React, { useContext } from "react";
 import SelectSearch from "../../shared/select-search/index.jsx";
 import Subtitle from "../../shared/subtitle/index.jsx";
 import Input from "../../shared/input/index.jsx";
@@ -10,9 +10,15 @@ import Input from "../../shared/input/index.jsx";
 import Button from "../../shared/button/index.jsx";
 import "./styles.scss";
 import { useRouter } from "../../hooks/useRouter";
+import UserContext from "../../context/UserContext";
 
 function AddressUser() {
-  const {gotoPlan} = useRouter()
+  const { gotoPlan } = useRouter();
+  const context = useContext(UserContext);
+  const handleClick = () => {
+    console.log(context);
+    gotoPlan();
+  };
 
   const API =
     "https://raw.githubusercontent.com/khriztianmoreno/tv-services-challenge/main/assets/buildings.json";
@@ -22,12 +28,12 @@ function AddressUser() {
       <Subtitle text={"Pleasure to meet you, USER!"} />
       <Subtitle text={"What is your install address?"} />
       <div className="address-user__select">
-        <SelectSearch link={API} />
+        <SelectSearch placeholder={"STREET, ADDRESS, CITY, STATE"} link={API} />
         <div className="address-user__select__input">
           <Input text={"apt#"} width={false} />
         </div>
       </div>
-      <Button onClick={gotoPlan} text={"Yes!"} />
+      <Button onClick={handleClick} text={"Yes!"} />
     </div>
   );
 }
