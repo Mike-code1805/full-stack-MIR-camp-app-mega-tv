@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import Swal from "sweetalert2";
 import Subtitle from "../../shared/subtitle/index.jsx";
 import Input from "../../shared/input/index.jsx";
 import Button from "../../shared/button/index.jsx";
@@ -6,6 +7,7 @@ import "./styles.scss";
 import UserContext from "../../context/UserContext";
 import { useCustomFormik } from "../../hooks/useCustomFormik";
 import { useRouter } from "../../hooks/useRouter";
+import { createService } from "../services/createService";
 
 function ContactUser() {
   const { gotoThanks } = useRouter();
@@ -25,13 +27,33 @@ function ContactUser() {
       nroApart: user[0].nroApart
     });
   };
+
   const formik = useCustomFormik({}, () => {
     createFormUser();
   });
+
   const handleClick = () => {
     formik.handleSubmit();
-    gotoThanks();
+    createService(
+      {
+        name: user[0].name,
+        lastname: user[0].lastname,
+        plan: user[0].plan,
+        email: user[0].email,
+        phone: user[0].phone,
+        address: user[0].address,
+        nroApart: user[0].nroApart
+      },
+      (response) => {
+        if (response.status === "success") {
+          gotoThanks();
+        } else {
+          Swal.fire("Credentials", response.error, "error");
+        }
+      }
+    );
   };
+
   return (
     <div className="contact-user">
       <Subtitle text={"Great news! Your first month's free!"} />

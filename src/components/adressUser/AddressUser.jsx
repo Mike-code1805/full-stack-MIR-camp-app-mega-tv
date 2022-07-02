@@ -14,18 +14,11 @@ import UserContext from "../../context/UserContext";
 import { useCustomFormik } from "../../hooks/useCustomFormik";
 
 function AddressUser() {
+  const API =
+    "https://raw.githubusercontent.com/khriztianmoreno/tv-services-challenge/main/assets/buildings.json";
   const { gotoPlan } = useRouter();
   const [nroApartInput, setNroApartInput] = useState("");
-  const {user, updateUser} = useContext(UserContext);
-  const handleClick = () => {
-    formik.handleSubmit();
-    gotoPlan();
-  };
-
-  
-  const formik = useCustomFormik({}, () => {
-    createFormUser();
-  });
+  const { user, updateUser } = useContext(UserContext);
 
   const createFormUser = () => {
     updateUser({
@@ -39,16 +32,23 @@ function AddressUser() {
       nroApart: nroApartInput
     });
   };
-
-  const API =
-    "https://raw.githubusercontent.com/khriztianmoreno/tv-services-challenge/main/assets/buildings.json";
-
+  const formik = useCustomFormik({}, () => {
+    createFormUser();
+  });
+  const handleClick = () => {
+    formik.handleSubmit();
+    gotoPlan();
+  };
   return (
     <div className="address-user">
       <Subtitle text={"Pleasure to meet you, USER!"} />
       <Subtitle text={"What is your install address?"} />
       <div className="address-user__select">
-        <SelectSearch nroApartText={nroApartInput} placeholder={"STREET, ADDRESS, CITY, STATE"} link={API} />
+        <SelectSearch
+          nroApartText={nroApartInput}
+          placeholder={"STREET, ADDRESS, CITY, STATE"}
+          link={API}
+        />
         <div className="address-user__select__input">
           <Input
             onChange={(e) => {

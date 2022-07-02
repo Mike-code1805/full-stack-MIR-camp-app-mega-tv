@@ -10,9 +10,7 @@ import "./styles.scss";
 function NameUser() {
   const { gotoAddress } = useRouter();
   const { createUser, clearUser } = useContext(UserContext);
-  const formik = useCustomFormik({ name: "", lastname: "" }, () => {
-    createFormUser();
-  });
+
   const createFormUser = () => {
     clearUser();
     createUser({
@@ -26,6 +24,10 @@ function NameUser() {
       phone: ""
     });
   };
+
+  const formik = useCustomFormik({ name: "", lastname: "" }, () => {
+    createFormUser();
+  });
 
   const handleClick = () => {
     formik.handleSubmit();
