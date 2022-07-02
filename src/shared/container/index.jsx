@@ -4,7 +4,7 @@ import Subtitle from "../subtitle/index.jsx";
 import styles from "./styles.module.scss";
 
 const Container = (props) => {
-  const { price, plan } = props;
+  const { price, plan, value, onClick } = props;
   return (
     <div className={styles.container}>
       <Subtitle text={plan} />
@@ -16,7 +16,7 @@ const Container = (props) => {
         <h3 className={styles.container__price__h3}>/mo</h3>
       </div>
       <div className={styles.container__radio}>
-        <input name="radio" type="radio" />
+        <input className={styles.container__radio__width} onClick={onClick} value={value} name="radio" type="radio" />
       </div>
     </div>
   );

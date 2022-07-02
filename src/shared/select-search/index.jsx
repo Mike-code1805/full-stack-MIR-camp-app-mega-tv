@@ -2,19 +2,20 @@
 /* eslint no-underscore-dangle: 0 */
 /* eslint-env es6 */
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useContext, useEffect, useRef, useState } from "react";
+import UserContext from "../../context/UserContext";
+import { useCustomFormik } from "../../hooks/useCustomFormik";
 import Button from "../button/index.jsx";
 import "./styles.scss";
 
 function SelectSearch(props) {
-  const { link, placeholder } = props;
+  const { link, placeholder, nroApartText } = props;
 
+  const { updateUser, user } = useContext(UserContext);
   const ref = useRef(null);
   const [active, setActive] = useState(false);
   const [citys, setCitys] = useState([]);
-  const [selectedText, setSelectedText] = useState(
-    placeholder
-  );
+  const [selectedText, setSelectedText] = useState(placeholder);
   const [searchField, setSearchField] = useState("");
 
   useEffect(() => {
@@ -35,7 +36,6 @@ function SelectSearch(props) {
     });
     setSearchField("");
   };
-
   const filteredCitys = citys.filter((item) => {
     return (
       item.name.toLowerCase().includes(searchField.toLowerCase()) ||
@@ -55,6 +55,24 @@ function SelectSearch(props) {
   };
   const handleClick = () => {
     ref.current.value = "";
+    formik.handleSubmit();
+  };
+
+  const formik = useCustomFormik({}, () => {
+    createFormUser();
+  });
+
+  const createFormUser = () => {
+    updateUser({
+      id: user[0].id,
+      name: user[0].name,
+      lastname: user[0].lastname,
+      plan: user[0].plan,
+      email: user[0].email,
+      phone: user[0].phone,
+      address: selectedText,
+      nroApart: nroApartText
+    });
   };
 
   return (
@@ -68,10 +86,9 @@ function SelectSearch(props) {
               <div
                 key={item._id}
                 onClick={() => {
-                  setSelectedText(`${item.address}, 
-              ${item.city}, 
-              ${item.state}, 
-              ${item.postal}`);
+                  setSelectedText(
+                    `${item.address}, ${item.city}, ${item.state}, ${item.postal}`
+                  );
                 }}
                 className="option"
               >

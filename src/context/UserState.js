@@ -7,12 +7,11 @@ const intialState = [];
 
 const UserState = ({ children }) => {
   const [state, dispatch] = useReducer(userReducer, intialState);
-  console.log(state);
   const createUser = (user) => {
     dispatch({ type: types.CREATE, payload: user });
   };
-  const updateUser = (id) => {
-    dispatch({ type: types.UPDATE, payload: id });
+  const updateUser = (user) => {
+    dispatch({ type: types.UPDATE, payload: user });
   };
   const deleteUser = (id) => {
     dispatch({ type: types.DELETE, payload: id });

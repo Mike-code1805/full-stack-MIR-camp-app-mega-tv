@@ -5,12 +5,23 @@ export const userReducer = (state, action) => {
     case types.CREATE:
       return [...state, action.payload];
     case types.UPDATE:
-      return state.map((task) => {
-        const { id, title, description } = action.payload;
-        if (task.id === id) {
-          return { ...task, title, description };
+      console.log(action.payload);
+      return state.map((user) => {
+        const { id, name, lastname, address, nroApart, plan, email, phone } =
+          action.payload;
+        if (user.id === id) {
+          return {
+            ...user,
+            name,
+            lastname,
+            address,
+            nroApart,
+            plan,
+            email,
+            phone
+          };
         }
-        return task;
+        return user;
       });
     case types.DELETE:
       return state.filter((task) => task.id !== action.payload);

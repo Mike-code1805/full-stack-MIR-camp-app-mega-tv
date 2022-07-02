@@ -9,15 +9,21 @@ import "./styles.scss";
 
 function NameUser() {
   const { gotoAddress } = useRouter();
-  const { createUser } = useContext(UserContext);
+  const { createUser, clearUser } = useContext(UserContext);
   const formik = useCustomFormik({ name: "", lastname: "" }, () => {
     createFormUser();
   });
-
   const createFormUser = () => {
+    clearUser();
     createUser({
+      id: Date.now(),
       name: formik.values.name,
-      lastname: formik.values.lastname
+      lastname: formik.values.lastname,
+      address: "",
+      nroApart: "",
+      plan: "",
+      email: "",
+      phone: ""
     });
   };
 
