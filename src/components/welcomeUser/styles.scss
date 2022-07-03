@@ -1,0 +1,18 @@
+@use "/src/scss/index" as *;
+
+.welcome {
+  border: 1px solid #ccc;
+  display: flexbox;
+  justify-content: center;
+  text-align: center;
+  &__title {
+    margin: 100px 100px 0px 100px;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+    font-family: $font;
+    color: $blue;
+    font-size: 80px;
+    border: none;
+  }
+}

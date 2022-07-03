@@ -1,0 +1,11 @@
+@use "/src/scss/index" as *;
+
+.contact-user {
+  border: 1px solid #ccc;
+  display: flexbox;
+  text-align: center;
+  margin: 100px 100px 100px 100px;
+  &__h4{
+    font-family: &font;
+  }
+}

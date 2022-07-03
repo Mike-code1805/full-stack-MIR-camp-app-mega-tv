@@ -1,0 +1,76 @@
+@use "/src/scss/index" as *;
+
+.container {
+  border: 1px solid $gray;
+  border-radius: 5%;
+  width: 20%;
+  margin: 3% 3% 3% 3%;
+  padding: 15px;
+  &__h1 {
+    font-size: small;
+    font-family: $font;
+    color: $gray-darken;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  &__img {
+    width: 8%;
+    margin-bottom: 10px;
+  }
+  &__price {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    &__h1 {
+      font-size: 20px;
+      margin-bottom: auto;
+      margin-top: auto;
+      color: $blue;
+    }
+    &__h2 {
+      margin-bottom: auto;
+      margin-top: auto;
+      font-size: 60px;
+      color: $blue;
+    }
+    &__h3 {
+      margin-bottom: auto;
+      margin-top: auto;
+      color: $blue;
+    }
+  }
+  &__radio {
+    input[type="radio"] {
+      &:after {
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+        top: -5px;
+        left: -8px;
+        position: relative;
+        content: "";
+        display: inline-block;
+        visibility: visible;
+        margin-top: auto;
+        background-color: lighten($white, 5%);
+        border: 2px solid $gray;
+      }
+      
+      &:checked {
+        &:after {
+          width: 25px;
+          height: 25px;
+          border-radius: 25px;
+          top: -5px;
+          left: -8px;
+          position: relative;
+          background-color: $blue;
+          content: "";
+          display: inline-block;
+          visibility: visible;
+          border: 2px solid $gray;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+@use "/src/scss/index" as *;
+
+.button {
+  border: none;
+  display: inline-block;
+  color: $white;
+  background-color: $blue;
+  padding: 15px 45px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  transition: background-color 0.1s ease;
+  font-family: $font;
+  cursor: pointer;
+  &::after {
+    background-color: darken($green, 50%);
+    transition: background-color 0.2s ease;
+    position: absolute;
+    content: "";
+    height: 4px;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    left: 0;
+  }
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: $white;
+  }
+  &:hover {
+    background-color: lighten($green, 5%);
+  }
+
+  &:active {
+    background-color: darken($green, 5%);
+  }
+
+  &--width {
+    border: none;
+    display: inline-block;
+    color: $white;
+    background-color: $blue;
+    padding: 10px 15px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.1s ease;
+    font-family: $font;
+    cursor: pointer;
+    &::after {
+      background-color: darken($green, 50%);
+      transition: background-color 0.2s ease;
+      position: absolute;
+      content: "";
+      height: 4px;
+      bottom: 0;
+      width: 100%;
+      opacity: 0;
+      border-bottom-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+      left: 0;
+    }
+    &:focus,
+    &:hover {
+      text-decoration: none;
+      color: $white;
+    }
+    &:hover {
+      background-color: lighten($green, 5%);
+    }
+
+    &:active {
+      background-color: darken($green, 5%);
+    }
+  }
+}
