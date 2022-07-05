@@ -10,7 +10,6 @@ export const createUserController = async (
 ): Promise<void> => {
     try {
         const newUser = await createOneUserService(req.body);
-        console.log(req.body);
         res.status(201).json( newUser );
     } catch (error: any) {
         logger.error('error on create user controller', {

@@ -6,7 +6,6 @@ import { userModel } from "../entity/model/userModel";
 export const getOneUserByIdService = async (id: string ): Promise< User | null> => {
     try {
       const user: User[] = await findOneResourceById(userModel)(id);
-      console.log(user);
       return user[0]
     } catch (error: any) {
       logger.error(`error getting user with id ${id}`, {
