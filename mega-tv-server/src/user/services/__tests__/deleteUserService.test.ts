@@ -2,10 +2,6 @@ import { mockData } from "../../../shared/testUtils/fixtures";
 import { deleteOneResourceById } from "../../../shared/factory/deleteOneResourceById";
 import { deleteUserService } from "../deleteUserService";
 
-// import { mockData } from '../../../shared/testUtils/fixtures';
-
-// const { projectId, userId } = mockData;
-
 jest.mock('../../../shared/factory/deleteOneResourceById');
 
 const deleteOneResourceByIdMock = deleteOneResourceById as jest.MockedFunction<

@@ -406,3 +406,235 @@
        fn:undefined 
 
        trace: No user id provided
+2022-07-04 20:59:44:5944 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-04 21:00:35:035 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-04 21:08:45:845 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 21:08:45:845 
+       [31merror[39m: [31merror getting user with id 6210d026e7d2fa722757a409[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 21:10:10:1010 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 21:10:11:1011 
+       [31merror[39m: [31merror getting user with id 62110223136fa11f93eace83[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 21:54:04:544 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 21:54:04:544 
+       [31merror[39m: [31merror getting user with id 62110223136fa11f93eace83[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 21:55:42:5542 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 21:55:42:5542 
+       [31merror[39m: [31merror getting user with id 62110223136fa11f93eace83[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 21:59:30:5930 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 21:59:30:5930 
+       [31merror[39m: [31merror getting user with id 62110223136fa11f93eace83[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 22:01:10:110 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 22:01:10:110 
+       [31merror[39m: [31merror getting user with id 62110223136fa11f93eace83[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 22:01:54:154 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 22:01:54:154 
+       [31merror[39m: [31merror getting user with id 62110223136fa11f93eace83[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 22:03:52:352 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 22:05:24:524 
+       [31merror[39m: [31merror getting user with id 6210d026e7d2fa722757a409[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 22:06:43:643 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 22:06:43:643 
+       [31merror[39m: [31merror getting user with id 62110223136fa11f93eace83[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 22:07:43:743 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 22:07:43:743 
+       [31merror[39m: [31merror getting user with id 62110223136fa11f93eace83[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 22:08:43:843 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 22:09:18:918 
+       [31merror[39m: [31merror getting user with id [39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: (0 , findOneResourceById_1.findOneResourceById)(...) is not a function
+2022-07-04 22:09:19:919 
+       [31merror[39m: [31merror getting user with id 62110223136fa11f93eace83[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Cannot read properties of null (reading '0')
+2022-07-04 22:17:35:1735 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-04 22:19:37:1937 
+       [31merror[39m: [31merror creating a user service[39m 
+  
+       instance: services 
+
+       fn:createOneUserService 
+
+       trace: User validation failed: created_at: Cast to date failed for value "Any {
+  '$$typeof': Symbol(jest.asymmetricMatcher),
+  sample: [Function: String],
+  inverse: false
+}" (type Any) at path "created_at", updated_at: Cast to date failed for value "Any {
+  '$$typeof': Symbol(jest.asymmetricMatcher),
+  sample: [Function: String],
+  inverse: false
+}" (type Any) at path "updated_at"
+2022-07-04 22:36:48:3648 
+       [31merror[39m: [31merror creating a user service[39m 
+  
+       instance: services 
+
+       fn:createOneUserService 
+
+       trace: User validation failed: _id: Cast to ObjectId failed for value "" (type string) at path "_id" because of "BSONTypeError"
