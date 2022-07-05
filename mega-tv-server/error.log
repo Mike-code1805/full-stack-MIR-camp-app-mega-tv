@@ -196,3 +196,40 @@
 {"level":"error","message":"error getting user with id 62c3344ff84ab1003ab0afa","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
 {"level":"error","message":"error","service":"user-service"}
 {"level":"error","message":"error","service":"user-service"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Lastname is required","service":"user-service","trace":"Lastname is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Lastname is required","service":"user-service","trace":"Lastname is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Name is required","service":"user-service","trace":"Name is required"}
+{"level":"error","message":"error getting user with id 62c3344ff84ab1003ab0afa","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id 62c3344ff84ab1003ab0afa","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Lastname is required","service":"user-service","trace":"Lastname is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Lastname is required","service":"user-service","trace":"Lastname is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Name is required","service":"user-service","trace":"Name is required"}
+{"level":"error","message":"error getting user with id 62c3344ff84ab1003ab0afa","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id 62c3344ff84ab1003ab0afa","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Lastname is required","service":"user-service","trace":"Lastname is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Lastname is required","service":"user-service","trace":"Lastname is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Name is required","service":"user-service","trace":"Name is required"}
+{"level":"error","message":"error getting user with id 62c3344ff84ab1003ab0afa","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id 62c3344ff84ab1003ab0afa","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"deleteUserService","instance":"services","level":"error","message":"Error deleting user: No user id provided","service":"user-service","trace":"No user id provided"}
+{"fn":"deleteUserService","instance":"services","level":"error","message":"Error deleting user: No user id provided","service":"user-service","trace":"No user id provided"}
+{"level":"error","message":"error getting user with id {}","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id \"\"","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting user with id gfdg12","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"deleteUserService","instance":"services","level":"error","message":"Error deleting user: No user id provided","service":"user-service","trace":"No user id provided"}
+{"fn":"deleteUserService","instance":"services","level":"error","message":"Error deleting user: Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"User\"","service":"user-service","trace":"Cast to ObjectId failed for value \"123\" (type string) at path \"_id\" for model \"User\""}
