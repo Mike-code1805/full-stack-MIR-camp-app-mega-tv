@@ -1,0 +1,408 @@
+2022-07-04 19:42:36:4236 
+       [31merror[39m: [31merror getting user with id gfdg12[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-04 19:42:36:4236 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 19:42:56:4256 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 19:42:56:4256 
+       [31merror[39m: [31mError deleting user: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "User"[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "User"
+2022-07-04 19:42:57:4257 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 19:45:09:459 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 19:45:09:459 
+       [31merror[39m: [31mError deleting user: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "User"[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "User"
+2022-07-04 19:46:06:466 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 19:46:12:4612 
+       [31merror[39m: [31merror getting user with id 62c[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-04 19:46:12:4612 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 19:46:41:4641 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 19:46:41:4641 
+       [31merror[39m: [31mError deleting user: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "User"[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "User"
+2022-07-04 19:48:02:482 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 19:48:02:482 
+       [31merror[39m: [31mError deleting user: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "User"[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123" (type string) at path "_id" for model "User"
+2022-07-04 19:50:16:5016 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 19:50:16:5016 
+       [31merror[39m: [31mError deleting user: Cast to ObjectId failed for value "123124" (type string) at path "_id" for model "User"[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123124" (type string) at path "_id" for model "User"
+2022-07-04 19:55:25:5525 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 19:55:25:5525 
+       [31merror[39m: [31mError deleting user: Cast to ObjectId failed for value "123124" (type string) at path "_id" for model "User"[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Cast to ObjectId failed for value "123124" (type string) at path "_id" for model "User"
+2022-07-04 20:06:42:642 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:06:42:642 
+       [31merror[39m: [31mError deleting user: (0 , deleteOneResourceById_1.deleteOneResourceById)(...) is not a function[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: (0 , deleteOneResourceById_1.deleteOneResourceById)(...) is not a function
+2022-07-04 20:07:56:756 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:17:44:1744 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:20:11:2011 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:20:52:2052 
+       [31merror[39m: [31merror getting user with id 62c[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-04 20:20:52:2052 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 20:20:52:2052 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:21:39:2139 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:23:36:2336 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:24:17:2417 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:24:50:2450 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:26:02:262 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:29:40:2940 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:29:40:2940 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:30:30:3030 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:32:25:3225 
+       [31merror[39m: [31mError deleting user: Parameter "filter" to deleteOne() must be an object, got 62c3344ff84ab1003ab0afa6[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Parameter "filter" to deleteOne() must be an object, got 62c3344ff84ab1003ab0afa6
+2022-07-04 20:32:25:3225 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 20:32:37:3237 
+       [31merror[39m: [31mError deleting user: Parameter "filter" to deleteOne() must be an object, got 62c3344ff84ab1003ab0afa6[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Parameter "filter" to deleteOne() must be an object, got 62c3344ff84ab1003ab0afa6
+2022-07-04 20:32:37:3237 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 20:32:50:3250 
+       [31merror[39m: [31mError deleting user: Parameter "filter" to deleteOne() must be an object, got 62c3344ff84ab1003ab0afa6[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: Parameter "filter" to deleteOne() must be an object, got 62c3344ff84ab1003ab0afa6
+2022-07-04 20:32:50:3250 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 20:33:13:3313 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 20:33:26:3326 
+       [31merror[39m: [31merror getting user with id null[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-04 20:33:26:3326 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-04 20:34:25:3425 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:43:24:4324 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:47:18:4718 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:48:13:4813 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:49:07:497 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:49:50:4950 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:50:34:5034 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-04 20:51:32:5132 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
