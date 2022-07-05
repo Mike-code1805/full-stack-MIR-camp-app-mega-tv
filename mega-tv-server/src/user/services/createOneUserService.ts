@@ -5,7 +5,7 @@ import { CreateUser, User } from '../entity/types/User';
 
 export const createOneUserService = async (
   orderRequest: CreateUser
-): Promise<User> => {
+): Promise<User | null> => {
   try {
     const user = await createResource(userModel)(orderRequest);
     return user as User;

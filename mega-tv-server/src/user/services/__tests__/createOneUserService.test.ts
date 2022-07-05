@@ -1,35 +1,31 @@
-import { mockData } from "../../../shared/testUtils/fixtures";
-// import { deleteOneResourceById } from "../../../shared/factory/deleteOneResourceById";
+import { createResource } from "../../../shared/factory/createResource";
+import { mockRequest, mockResponse } from "../../../shared/testUtils/fixtures";
 import { createOneUserService } from "../createOneUserService";
 
-// jest.mock('../../../shared/factory/deleteOneResourceById');
+jest.mock('../../../shared/factory/createResource');
 
-// const deleteOneResourceByIdMock = deleteOneResourceById as jest.MockedFunction<
-//   typeof deleteOneResourceById
-// >;
+const createResourceMock = createResource as jest.MockedFunction<
+  typeof createResource
+>;
 
 describe('createOneUserService ', () => {
+
   it('should return an error when user id is undefined', async () => {
     try {
-      await createOneUserService(mockData[0]);
+      const internal = jest.fn().mockImplementation();
+      createResourceMock.mockImplementation(() => internal);
+      await createOneUserService(mockRequest.body);
     } catch (error: any) {
       expect(error.message).toEqual(
-        `Error deleting user: No user id provided`
+        `Error creating user`
       );
     }
   });
 
-//   it("should return null if the user doesn't exist", async () => {
-//     const internal = jest.fn().mockImplementation(() => Promise.resolve(null));
-//     deleteOneResourceByIdMock.mockImplementation(() => internal);
-//     const result = await deleteUserService(mockData[0]._id);
-//     expect(result).toEqual(null);
-//   });
-
-//   it("should return { deletedCount: 1 } if the user was deleted", async () => {
-//     const internal = jest.fn().mockImplementation(() => Promise.resolve({ deletedCount: 1 }));
-//     deleteOneResourceByIdMock.mockImplementation(() => internal);
-//     const result = await deleteUserService(mockData[0]._id);
-//     expect(result).toEqual({"deletedCount": 1});
-//   });
+  it('should return the user when the user is created', async () => {
+    const internal = jest.fn().mockImplementation(() => Promise.resolve(mockResponse));
+    createResourceMock.mockImplementation(() => internal);
+    const result = await createOneUserService(mockRequest.body);
+    expect(result).toEqual(mockResponse);
+  });
 });

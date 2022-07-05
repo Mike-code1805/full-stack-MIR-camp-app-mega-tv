@@ -9,7 +9,7 @@ export const createResource =
   >(
     Model: K
   ) =>
-  async <T>(resource: T): Promise< User > => {
+  async <T>(resource: T): Promise< User | null > => {
     try {
         const newResource = new Model(resource);
         return await newResource.save();

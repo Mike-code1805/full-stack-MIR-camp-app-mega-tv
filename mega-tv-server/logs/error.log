@@ -638,3 +638,491 @@
        fn:createOneUserService 
 
        trace: User validation failed: _id: Cast to ObjectId failed for value "" (type string) at path "_id" because of "BSONTypeError"
+2022-07-05 09:43:21:4321 
+       [31merror[39m: [31merror creating a user service[39m 
+  
+       instance: services 
+
+       fn:createOneUserService 
+
+       trace: User validation failed: _id: Cast to ObjectId failed for value "" (type string) at path "_id" because of "BSONTypeError"
+2022-07-05 09:46:30:4630 
+       [31merror[39m: [31merror creating a user service[39m 
+  
+       instance: services 
+
+       fn:createOneUserService 
+
+       trace: User validation failed: _id: Cast to ObjectId failed for value "" (type string) at path "_id" because of "BSONTypeError"
+2022-07-05 09:46:44:4644 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 09:46:45:4645 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 09:46:45:4645 
+       [31merror[39m: [31merror validating body request Name is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Name is required
+2022-07-05 09:46:46:4646 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 09:46:47:4647 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 09:46:47:4647 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 09:46:48:4648 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 09:46:48:4648 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 09:46:48:4648 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 09:46:52:4652 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-05 09:46:52:4652 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-05 09:46:52:4652 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-05 09:49:44:4944 
+       [31merror[39m: [31merror creating a user service[39m 
+  
+       instance: services 
+
+       fn:createOneUserService 
+
+       trace: User validation failed: created_at: Cast to date failed for value "Any {
+  '$$typeof': Symbol(jest.asymmetricMatcher),
+  sample: [Function: String],
+  inverse: false
+}" (type Any) at path "created_at", updated_at: Cast to date failed for value "Any {
+  '$$typeof': Symbol(jest.asymmetricMatcher),
+  sample: [Function: String],
+  inverse: false
+}" (type Any) at path "updated_at"
+2022-07-05 09:50:16:5016 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-05 09:50:33:5033 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 09:50:33:5033 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 09:50:34:5034 
+       [31merror[39m: [31merror validating body request Name is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Name is required
+2022-07-05 09:50:35:5035 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 09:50:35:5035 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 09:50:35:5035 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 09:50:36:5036 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 09:50:36:5036 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 09:50:36:5036 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 09:59:13:5913 
+       [31merror[39m: [31merror creating a user service[39m 
+  
+       instance: services 
+
+       fn:createOneUserService 
+
+       trace: Operation `users.insertOne()` buffering timed out after 10000ms
+2022-07-05 10:32:00:320 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
+2022-07-05 10:32:42:3242 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 10:32:43:3243 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 10:32:43:3243 
+       [31merror[39m: [31merror validating body request Name is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Name is required
+2022-07-05 10:32:44:3244 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 10:32:44:3244 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 10:32:45:3245 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 10:32:46:3246 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 10:32:46:3246 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 10:32:46:3246 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 10:50:34:5034 
+       [31merror[39m: [31merror creating a user service[39m 
+  
+       instance: services 
+
+       fn:createOneUserService 
+
+       trace: (0 , createResource_1.createResource)(...) is not a function
+2022-07-05 10:58:53:5853 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 11:12:58:1258 
+       [31merror[39m: [31merror creating a user service[39m 
+  
+       instance: services 
+
+       fn:createOneUserService 
+
+       trace: (0 , createResource_1.createResource)(...) is not a function
+2022-07-05 11:34:41:3441 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 11:34:52:3452 
+       [31merror[39m: [31merror validating body request Name is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Name is required
+2022-07-05 12:17:08:178 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 12:17:08:178 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 12:17:08:178 
+       [31merror[39m: [31merror validating body request Name is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Name is required
+2022-07-05 12:17:09:179 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 12:17:09:179 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 12:17:09:179 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 12:17:10:1710 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 12:17:11:1711 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 12:17:12:1712 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 12:19:00:190 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 12:19:01:191 
+       [31merror[39m: [31merror validating body request Lastname is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Lastname is required
+2022-07-05 12:19:01:191 
+       [31merror[39m: [31merror validating body request Name is required[39m 
+  
+       instance: middlewares schema validation 
+
+       fn:undefined 
+
+       trace: Name is required
+2022-07-05 12:19:02:192 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 12:19:02:192 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 12:19:02:192 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 12:19:02:192 
+       [31merror[39m: [31merror getting user with id 62c3344ff84ab1003ab0afa[39m 
+  
+       instance: undefined 
+
+       fn:getOneUserByIdService 
+
+       trace: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+2022-07-05 12:19:02:192 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 12:19:02:192 
+       [31merror[39m: [31merror[39m 
+  
+       instance: undefined 
+
+       fn:undefined 
+
+       trace: undefined
+2022-07-05 12:19:05:195 
+       [31merror[39m: [31mError deleting user: No user id provided[39m 
+  
+       instance: services 
+
+       fn:undefined 
+
+       trace: No user id provided
